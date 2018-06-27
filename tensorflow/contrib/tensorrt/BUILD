@@ -114,7 +114,6 @@ cc_library(
     visibility = ["//visibility:public"],
     deps = [
         ":trt_logging",
-        ":trt_plugins",
         ":trt_resources",
         "//tensorflow/core:gpu_headers_lib",
         "//tensorflow/core:lib_proto_parsing",
